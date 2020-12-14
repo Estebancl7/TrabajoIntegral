@@ -47,7 +47,7 @@
                     <li class="nav-item px-2">
                         <a class="nav-link" href="/TrabajoIntegral" style="text-align: center;">Nosotros </a>
                     </li>
-                    <a href="/TrabajoIntegral" class="btn btn-outline-light px-2 ml-1" style="text-align: center; max-width: 850px;">Comenzar ahora !</a>
+                    <a href="/TrabajoIntegral/templates/cargarArchivo.php" class="btn btn-outline-light px-2 ml-1" style="text-align: center; max-width: 850px;">Comenzar ahora !</a>
                 </ul>
             </div>
         </div>
@@ -79,10 +79,10 @@
 
                 <div class="row">
                     <div class="col-6">
-                        <h5 class="text-justify mt-4 pb-5 mr-4">A continuaci&oacuten se puede encontrar el desarrollo del trabajo N°3 de la asignatura Grafos y lenguajes formales; en este se nos pide ingresar dos
-                            tipos de aut&oacutematas, obtener la expresi&oacuten regular y trabajar con aut&oacutematas de pilas junto a su concatenaci&oacuten y uni&oacuten. <br> </h5>
+                        <h5 class="text-justify mt-4 pb-5 mr-4">A continuaci&oacuten se puede encontrar el desarrollo del trabajo Integral de la asignatura Grafos y lenguajes formales; en este se nos pide ingresar dos
+                             <br> </h5>
                         <div class="mb-2">
-                            <a class="mb-5"href="/TrabajoIntegral">Comenzar Ahora !</a>
+                            <a class="mb-5"href="/TrabajoIntegral/templates/cargarArchivo.php">Comenzar Ahora !</a>
                         </div>
                         <br>
 
