@@ -69,13 +69,14 @@
                 <span class="">j</span>
                 <span class="">o</span>
 
-                <span class="ml-3">U</span>
+                <span class="ml-3">I</span>
                 <span class="">n</span>
-                <span class="">i</span>
-                <span class="">d</span>
+                <span class="">t</span>
+                <span class="">e</span>
+                <span class="">g</span>
+                <span class="">r</span>
                 <span class="">a</span>
-                <span class="">d</span>
-                <span class="ml-3">3</span>
+                <span class="">l</span>
             </h1>
             <h1 class="divider pt-1 mx-5"></h1>
             <br>

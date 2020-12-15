@@ -46,7 +46,7 @@
           <h1 class="display-5 text-center">Añade archivo de coordenadas</h1>
           <h1 class="divider mx-5 mb-5"></h1>
           <div class="text-center">
-              <form action="procesar.php" method="POST" enctype="multipart/form-data" >
+              <form action="contenido.php" method="POST" enctype="multipart/form-data" >
                   <div class="form-group has-feedback">
                      <label for="archivo" role="button">Selecciona el archivo con Coordenadas GPS de los Centros y Puntos de venta:</label>
                       <input id="archivo" type="file" name="archivo" class="form-control" onchange="return validarExt()"/>

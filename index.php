@@ -45,7 +45,7 @@
                         <a class="nav-link" href="/TrabajoIntegral" style="text-align: center;">Inicio </a>
                     </li>
                     <li class="nav-item px-2">
-                        <a class="nav-link" href="/TrabajoIntegral" style="text-align: center;">Nosotros </a>
+                        <a class="nav-link" href="/TrabajoIntegral/templates/nosotros.php" style="text-align: center;">Nosotros </a>
                     </li>
                     <a href="/TrabajoIntegral/templates/cargarArchivo.php" class="btn btn-outline-light px-2 ml-1" style="text-align: center; max-width: 850px;">Comenzar ahora !</a>
                 </ul>
@@ -167,7 +167,24 @@
 
     </section>
 
-
+    
+    <section id="footer">
+        <nav class="container-fluid  p-2 aria-label">
+            <div class="container">
+                <div class="content-center">
+                    <div class="row my-1">
+                        <div class="col d-flex justify-content-center">
+                            <a href="https://github.com/Estebancl7/TrabajoIntegral" class="text-white">
+                                <em class="fab fa-github"></em>
+                            </a>
+                        </div>
+                    </div>
+                    <h1 class="divider mx-5"></h1>
+                    <h4 class="text-center"> Universidad Tecnol&oacutegica Metropolitana | Desarrollado por: Grupo 3</h4>
+                </div>
+            </div>
+        </nav>
+    </section>
 
     
     <!-- Optional JavaScript -->
