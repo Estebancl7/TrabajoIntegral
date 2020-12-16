@@ -45,29 +45,26 @@
         <?php
           $conexion = mysqli_connect('localhost', 'root', '');
 
-          $sql ="CREATE DATABASE TrabajoIntegral";
+          $sql ="CREATE DATABASE TrabajoIntegralgrafos";
 
           if($conexion->query($sql) === true){
           
             echo '<h1 class="mb-5">Base de datos creada de manera exitosa!</h1>';
 
-            echo'<form action="futurapag.php" method="POST">
+            echo'<form action="exportarDatos.php" method="POST">
                     <input type="hidden" name="nombrearchivo" value="'.$_POST['nombrearchivo'].'">                        
                     <button id="btn_enviar" type="submit"  class="btn btn-outline-light mb-5">Exportar a la Base de Datos</button>
                   </form>';
           }
           else{
-
-            if($conexion->error=="Can't create database 'trabajointegralgrafos'; database exists")
-            {
-              echo'<form action="futurapag.php" method="POST">
-                    <input class="text-center" type="hidden" name="nombrearchivo" value="'.$_POST['nombrearchivo'].'">
-                    <h1>La base de datos ya está creada!</h1>
-                    <h1 class="divider mx-5 mb-5"></h1> 
-                    <h3 class="mb-5">No te preocupes, solo debes apretar continuar, el resto lo hacemos nosotros!</h3>
-                                           
-                    <button id="btn_enviar" type="submit"  class="btn btn-outline-light centrar-btn">Continuar</button>
-                  </form>';
+            if($conexion->error=="Can't create database 'trabajointegralgrafos'; database exists"){
+              echo'<form action="exportarDatos.php" method="POST">
+                      <input class="text-center" type="hidden" name="nombrearchivo" value="'.$_POST['nombrearchivo'].'">
+                      <h1>La base de datos ya está creada!</h1>
+                      <h1 class="divider mx-5 mb-5"></h1> 
+                      <h3 class="mb-5">No te preocupes, solo debes apretar continuar, el resto lo hacemos nosotros!</h3>                       
+                      <button id="btn_enviar" type="submit"  class="btn btn-outline-light centrar-btn">Continuar</button>
+                    </form>';
             }
           }        
         ?>

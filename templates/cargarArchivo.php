@@ -14,7 +14,7 @@
 
     <link rel="icon" href="img/Grafos.png">
 
-    <title>Grafos Nosotros</title>
+    <title>Grafos</title>
 
 </head>
 <body>
