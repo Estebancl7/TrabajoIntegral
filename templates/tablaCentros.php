@@ -94,7 +94,7 @@
                         
                         <td>
 
-                        <form action="futurapag.php" method="POST">
+                        <form action="planificacion.php" method="POST">
                         
                         <?php
                           
