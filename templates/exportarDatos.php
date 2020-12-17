@@ -6,7 +6,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!--Conexion Css -->
-    <link rel="stylesheet" href="/TrabInteg/css/index.css">
+    <link rel="stylesheet" href="/TrabajoIntegral/css/index.css">
     <!--Font awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google fonts -->
@@ -87,19 +87,28 @@
                   ";       
 
               if($conexion->query($sql2)===true && $conexion->query($sql3)===true){
-                  echo "<h4>y hemos separado las coordenadas correctamente :D</h4><br>";
+                  echo "<h3>y hemos separado las coordenadas correctamente :D</h3><br>";
               }else{
 
-                die ("Error en la separación: ".$conexion->error);
+                die ("<h3>Error, no pudimos separar los datos: </h3>".$conexion->error);
               }
 
         ?>
-        <form action="futurapag.php">
+        <form action="tablaCentros.php">
           <input class="btn btn-outline-light centrar-btn" type="submit" Value="Comienza el recorrido !">
         </form>
       </div>
 
   </div>
               
-
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
+        <!-- Script para carrusel -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 </body>
