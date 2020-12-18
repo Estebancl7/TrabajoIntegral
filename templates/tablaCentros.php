@@ -42,7 +42,7 @@
 
   
   
-      <h2 class="text-center display-4 pt-5">Informaci&oacuten de la Base de Datos</h2>
+      <h2 class="text-center display-4 pt-5">Hoja de ruta diaria</h2>
     
       <div class="container">
       <h1 class="divider"></h1>
@@ -62,8 +62,7 @@
                 session_start();
                 include "conexion.php";
 
-              
-                $sql2 ="SELECT * from datoslocales where TipoLocal='P'";
+                $sql2 ="SELECT * from locales where TipoLocal='P'";
                 $result=mysqli_query($conexion,$sql2);
 
                 $num='NumeroIdentificador';
@@ -79,7 +78,7 @@
                   $_SESSION['cant_pv']=count($_SESSION[$arre]);
                 }
 
-                $sql ="SELECT * from datoslocales where TipoLocal='C'";
+                $sql ="SELECT * from locales where TipoLocal='C'";
                 $result=mysqli_query($conexion,$sql);
                 while($mostrar=mysqli_fetch_array($result))
                 {
@@ -144,7 +143,7 @@
 
                    </tr>
                   <?php
-                    $sql2 ="SELECT * from datoslocales where TipoLocal='P'";
+                    $sql2 ="SELECT * from locales where TipoLocal='P'";
                     $result=mysqli_query($conexion,$sql2);
                     while($mostrar2=mysqli_fetch_array($result)){
                       $num_camion=1;

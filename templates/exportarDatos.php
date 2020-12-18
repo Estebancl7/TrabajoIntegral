@@ -47,8 +47,8 @@
 
               include "conexion.php";
   
-              $sql9 = "CREATE TABLE datoslocales(
-        
+              $sql9 = "CREATE TABLE locales(
+               
               TipoLocal VARCHAR(1), 
               NumeroIdentificador INT NULL,   
               Coordenadas VARCHAR(1000),
@@ -68,20 +68,20 @@
 
 
               $sql="LOAD DATA INFILE 'C:/xampp/htdocs/TrabajoIntegral/templates/$nombrearchivo'
-                  INTO TABLE datoslocales
+                  INTO TABLE locales
                   FIELDS TERMINATED BY ';'
                   LINES TERMINATED BY '\n';
                   ";
-      
+
               if($conexion->query($sql)===true ){
                   echo "<h2>Ademas los datos han sido exportados correctamente</h2><br>";
               }
         
-              $sql2="UPDATE datoslocales
+              $sql2="UPDATE locales
                   SET 
                    X = SUBSTRING(Coordenadas,1,LOCATE(',',Coordenadas) - 1)
                   ";
-              $sql3="UPDATE datoslocales
+              $sql3="UPDATE locales
                   SET
                   Y = SUBSTRING(Coordenadas,LOCATE(',',Coordenadas) + 1)
                   ";       
