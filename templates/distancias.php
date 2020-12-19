@@ -249,7 +249,7 @@
                   <td>2</td>
                   <td>C</td>
                   <td><?php echo $C?></td>
-                  <td>Se carga con <?php echo $_POST['cant_prod']?> productos</td>
+                  <td>Carga el cami&oacuten con <?php echo $_POST['cant_prod']?> productos</td>
                 </tr>
                 <?php
                 $sql2 ="SELECT * from PuntosVentas$C ";
@@ -276,7 +276,7 @@
                     <td><?php echo $cont+1; ?></td>
                     <td>D</td>
                     <td>0</td>
-                    <td>Se estaciona el camión</td>
+                    <td>Estaciona el camión</td>
                   </tr>
               </tbody>
               

@@ -47,7 +47,7 @@
 
     <section id="first">
         <div class="container text-center bg-dark rounded shadow my-4 p-3">
-            <h1 class="divider pt-5 mx-5"></h1>
+            <h1 class="divider pt-4 mx-5"></h1>
             <h1 class="pb-1">
                 <span class="">E</span>
                 <span class="">j</span>
@@ -56,10 +56,10 @@
                 <span class="">p</span>
                 <span class="">l</span>
                 <span class="">o</span>
-                <span class="ml-3">D</span>
+                <span class="ml-3">d</span>
                 <span class="">e</span>
                 <span class="">l</span>
-                <span class="ml-3">A</span>
+                <span class="ml-3">a</span>
                 <span class="">r</span>
                 <span class="">c</span>
                 <span class="">h</span>
@@ -71,13 +71,14 @@
             <br>
             
             <div class="row">
-                <div class="col-md-6">
-                    <div class="text-white">
-                        <h6 class="text-justify mx-4">Para un correcto funcionamiento de la plataforma de gesti&oacuten rutas, se recomienda que el archivo de texto, venga 
-                        dado por el siguiente formato.</br></br>
+                <div class="col-md-6 text-justify">
+                    <div class="text-white mx-4">
+                        <h6 class="">Para un correcto funcionamiento de la plataforma de gesti&oacuten rutas, se recomienda que el archivo de texto, venga 
+                        dado por el siguiente formato.</br>
                         Esto debido a que se siguen las instrucciones brindadas por el docente en donde se nos dice que N es un identificador entero para cada ubicaci&oacuten, por tanto
                         si no se ingresa de la manera expecificada, no se podra pasar a la hoja de rutas, dado que todo esta controlado por validadores. 
                         </h6>
+                        <h6>Por otro lado las coordenadas pueden tener magnitudes negativas, no te preocupes funcionara a la perfecci&oacuten</h6>
                     </div>
                 </div>
                 <div class="col-md-6">

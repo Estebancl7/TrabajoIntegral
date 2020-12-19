@@ -2,6 +2,4 @@
 
     $conexion = mysqli_connect('localhost', 'root', '','trabajointegralgrafos');
 
-   
-
 ?>

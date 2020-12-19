@@ -75,7 +75,7 @@
 
               if($conexion->query($sql)===true ){
                 echo "<h1>Tabla creada de manera exitosa!</h1><br>";
-                  echo "<h2>Ademas los datos han sido exportados correctamente</h2><br>";
+                  echo "<h2>Adem&aacutes los datos han sido exportados correctamente</h2><br>";
                   $sql2="UPDATE locales
                      SET 
                    X = SUBSTRING(Coordenadas,1,LOCATE(',',Coordenadas) - 1)
