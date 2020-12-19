@@ -249,7 +249,7 @@
                   <td>2</td>
                   <td>C</td>
                   <td><?php echo $C?></td>
-                  <td>Se carga con x=<?php echo $_POST['cant_prod']?> productos</td>
+                  <td>Se carga con <?php echo $_POST['cant_prod']?> productos</td>
                 </tr>
                 <?php
                 $sql2 ="SELECT * from PuntosVentas$C ";
@@ -264,7 +264,7 @@
                           <td><?php echo$cont +1; ?></td>
                             <td>P</td>
                             <td><?php echo $ruta[0][$cont]?></td>
-                            <td>Se dejan <?php echo $mostrar2['Cant_prod']?> productos.</td>
+                            <td>Deja <?php echo $mostrar2['Cant_prod']?> productos</td>
                             
                   
                         </tr>

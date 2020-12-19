@@ -81,8 +81,7 @@
                     <div class="col-6">
                         <h5 class="text-justify mt-4 pb-5 mr-4">A continuaci&oacuten se puede encontrar el desarrollo del trabajo Integral de la asignatura Grafos y lenguajes formales; 
                             Se nos pide desarrollar un software que construya la hoja de ruta de manera eficiente,
-                             minimizando las distancias totales (km) recorridos por todos los camiones diariamente. </br>Para lo anterior, el software debe cargarse con
-las coordenadas GPS de los distintos centros de distribución y puntos de venta.<br> </h5>
+                             minimizando las distancias totales (km) recorridos por todos los camiones diariamente. </h5>
                         <div class="mb-2">
                             <a class="mb-5"href="/TrabajoIntegral/templates/cargarArchivo.php">Comenzar Ahora !</a>
                         </div>
