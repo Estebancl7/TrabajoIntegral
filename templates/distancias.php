@@ -293,7 +293,7 @@
             ?> 
 
             
-            <form action="futurapag.php">
+            <form action="tablacentros.php">
               <input type="submit" class="btn btn-secondary" value="Crea otra ruta para un camión diferente">
               </form>
         

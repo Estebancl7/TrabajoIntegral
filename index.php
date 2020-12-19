@@ -48,6 +48,8 @@
                         <a class="nav-link" href="/TrabajoIntegral/templates/nosotros.php" style="text-align: center;">Nosotros </a>
                     </li>
                     <a href="/TrabajoIntegral/templates/cargarArchivo.php" class="btn btn-outline-light px-2 ml-1" style="text-align: center; max-width: 850px;">Comenzar ahora !</a>
+                    <a href="/TrabajoIntegral/templates/ejemplo.php" class="btn btn-outline-light px-2 ml-1" style="text-align: center; max-width: 850px;">Ver ejemplo</a>
+                
                 </ul>
             </div>
         </div>
@@ -79,16 +81,15 @@
 
                 <div class="row">
                     <div class="col-6">
-                        <h5 class="text-justify mt-4 pb-5 mr-4">A continuaci&oacuten se puede encontrar el desarrollo del trabajo Integral de la asignatura Grafos y lenguajes formales; 
+                        <h5 class="text-justify mt-2 pb-4 mr-4">A continuaci&oacuten se puede encontrar el desarrollo del trabajo Integral de la asignatura Grafos y lenguajes formales; 
                             Se nos pide desarrollar un software que construya la hoja de ruta de manera eficiente,
                              minimizando las distancias totales (km) recorridos por todos los camiones diariamente. </h5>
-                        <div class="mb-2">
+                        <div class="mb-4">
                             <a class="mb-5"href="/TrabajoIntegral/templates/cargarArchivo.php">Comenzar Ahora !</a>
                         </div>
-                        <br>
 
                     </div>
-                    <div class="col-6 text-center bg-dark mt-4">
+                    <div class="col-6 text-center bg-dark mt-2">
                         <img class="" src="img/Grafos.png" alt="" height="250px">
                     </div>
                 </div>

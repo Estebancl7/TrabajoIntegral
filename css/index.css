@@ -39,9 +39,11 @@ h3,
     line-height: 1.5 !important;
     font-size: 30px;
 }
-h5{
+
+h5 {
     font-weight: 400;
 }
+
 #first h1 {
     font-size: 40px;
     color: var(--white);
@@ -102,8 +104,6 @@ h5{
     min-width: 30px;
     background-color: #CDA434 !important;
 }
-
-
 
 .divider {
     border-bottom: 2px solid black;
@@ -272,13 +272,12 @@ span:hover {
     opacity: 1;
 }
 
+
 /*.contenedor {
     max-width: 1200px !important;
     width: 90% !important;
     margin: auto !important;
 }*/
-
-
 
 .ion-icon {
     color: #CDA434 !important;
@@ -300,10 +299,9 @@ input:invalid {
     color: black !important;
 }
 
-.centrar-btn{
+.centrar-btn {
     display: flex;
     text-align: center;
     justify-content: center;
     margin: 0 auto;
 }
-
