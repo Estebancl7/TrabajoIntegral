@@ -1,6 +1,4 @@
-# Título del Proyecto
-
-_Trabajo Integral_
+# Trabajo Integral
 
 ## Sobre el trabajo 🚀
 
