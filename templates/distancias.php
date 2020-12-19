@@ -276,7 +276,7 @@
                     <td><?php echo $cont+1; ?></td>
                     <td>D</td>
                     <td>0</td>
-                    <td>Se estaciona el camión.</td>
+                    <td>Se estaciona el camión</td>
                   </tr>
               </tbody>
               

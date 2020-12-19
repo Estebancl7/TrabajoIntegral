@@ -77,26 +77,26 @@
                 echo "<h1>Tabla creada de manera exitosa!</h1><br>";
                   echo "<h2>Ademas los datos han sido exportados correctamente</h2><br>";
                   $sql2="UPDATE locales
-                  SET 
+                     SET 
                    X = SUBSTRING(Coordenadas,1,LOCATE(',',Coordenadas) - 1)
                   ";
-              $sql3="UPDATE locales
-                  SET
-                  Y = SUBSTRING(Coordenadas,LOCATE(',',Coordenadas) + 1)
-                  ";
-                  
+                  $sql3="UPDATE locales
+                      SET
+                      Y = SUBSTRING(Coordenadas,LOCATE(',',Coordenadas) + 1)
+                      ";
+                      
                
 
-              if($conexion->query($sql2)===true && $conexion->query($sql3)===true){
-                  echo "<h3>y hemos separado las coordenadas a la perfección :D</h3><br>";
-                  echo '<form action="tablaCentros.php">
-                  <input class="btn btn-outline-light centrar-btn" type="submit" Value="Comienza el recorrido !">
-                </form>';
+                    if($conexion->query($sql2)===true && $conexion->query($sql3)===true){
+                        echo "<h3>y hemos separado las coordenadas a la perfección :D</h3><br>";
+                        echo '<form action="tablaCentros.php">
+                        <input class="btn btn-outline-light centrar-btn" type="submit" Value="Comienza el recorrido !">
+                      </form>';
 
-              }else{
+                    }else{
 
-                die ("<h3>Error, no pudimos separar los datos: </h3>".$conexion->error);
-              }
+                      die ("<h3>Error, no pudimos separar los datos: </h3>".$conexion->error);
+                    }
               }else{
                   echo '<h2>Los datos no se pudieron exportar, recuerda que </br><strong style="color:#CDA434">no puedes</strong> repetir los Numeros identificadores</h2>';
                   echo '<form action="/TrabajoIntegral/templates/cargarArchivo.php">
