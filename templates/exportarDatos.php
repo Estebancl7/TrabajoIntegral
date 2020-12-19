@@ -86,7 +86,7 @@
                       ";
                       
                
-
+                    
                     if($conexion->query($sql2)===true && $conexion->query($sql3)===true){
                         echo "<h3>y hemos separado las coordenadas a la perfección :D</h3><br>";
                         echo '<form action="tablaCentros.php">
